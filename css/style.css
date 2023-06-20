@@ -1,0 +1,198 @@
+:root {
+  /* # PALETTE COLORI */
+  --cyan: #add8e6;
+  --black: #000000;
+  --golden: #daa520;
+  --blue: #00008b;
+  --fuchsia: #ee82ee;
+  --white: #ffffff;
+  --gray: #d3d3d3;
+  --azure: #1e90ff;
+  --pink: #ffc0cb;
+  --green: #228b22;
+  --darkgray: #23272a;
+  --salmon: #f08080;
+  --teal: #20b2aa;
+  --aquamarine: #7fffd4;
+  --lightpink: #ffb6c1;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* # UTILS */
+
+.container {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex.d-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex.justify-around {
+  justify-content: space-around;
+}
+
+.flex.justify-between {
+  justify-content: space-between;
+}
+
+.flex.align-center {
+  align-items: center;
+}
+
+/* # HEADER */
+
+header {
+  padding: 1.5rem 0;
+}
+
+/* # JUMBOTRON */
+
+.jumbotron {
+  min-height: 400px;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron > .container {
+  width: 50%;
+  min-height: 250px;
+}
+
+/* # SECTIONS */
+
+section.bg-white {
+  background-color: var(--white);
+}
+
+section.bg-gray {
+  background-color: var(--gray);
+}
+
+.main-section {
+  padding: 2rem 0;
+}
+
+.large-col {
+  width: 60%;
+}
+
+.small-col {
+  width: 40%;
+}
+
+/* # FOOTER */
+
+.bg-darkgray {
+  background-color: var(--darkgray);
+}
+
+.footer-top {
+  border: 1px solid var(--gray);
+}
+
+.footer-top,
+.footer-bottom {
+  padding: 2rem 0;
+}
+
+.footer-bottom > .container > * {
+  padding: 0.25rem 0.5rem;
+}
+
+.col-70 {
+  width: 70%;
+}
+
+.col-30 {
+  width: 30%;
+}
+
+.col-25 {
+  width: 25%;
+}
+
+/* ! DEBUG */
+
+.debug .bordered {
+  border: 2px dashed var(--black);
+}
+
+.debug .bordered-white {
+  border: 2px dashed var(--white);
+}
+
+.debug .bg-cyan {
+  background-color: var(--cyan);
+  min-height: 50px;
+}
+
+.debug .bg-golden {
+  background-color: var(--golden);
+  min-height: 50px;
+}
+
+.debug .bg-blue {
+  background-color: var(--blue);
+  /* min-height: 50px; */
+}
+
+.debug .bg-fuchsia {
+  background-color: var(--fuchsia);
+  /* min-height: 50px; */
+}
+
+.debug .bg-azure {
+  background-color: var(--azure);
+  min-height: 50px;
+}
+
+.debug .bg-pink {
+  background-color: var(--pink);
+  min-height: 50px;
+}
+
+.debug .bg-green {
+  background-color: var(--green);
+  min-height: 50px;
+}
+
+.debug .bg-salmon {
+  background-color: var(--salmon);
+  min-height: 50px;
+}
+
+.debug .bg-teal {
+  background-color: var(--teal);
+  min-height: 50px;
+}
+
+.debug .bg-aquamarine {
+  background-color: var(--aquamarine);
+  min-height: 50px;
+}
+
+.debug .bg-lightpink {
+  background-color: var(--lightpink);
+}
+
+.debug .tall {
+  min-height: 350px;
+}
+
+.debug .taller {
+  min-height: 600px;
+}
