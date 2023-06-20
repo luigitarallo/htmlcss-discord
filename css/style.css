@@ -67,8 +67,10 @@ ul {
   list-style: none;
 }
 
-li {
+li > a {
   margin: 0 20px;
+  color: white;
+  text-decoration: none;
 }
 
 /* # JUMBOTRON */
