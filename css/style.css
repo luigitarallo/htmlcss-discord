@@ -62,7 +62,7 @@
 
 header {
   padding: 1.5rem 0;
-  background-color: #3161e0;
+  background-color: #255ee9;
 }
 
 .link {
@@ -97,10 +97,13 @@ li > a {
 .jumbotron > .container {
   width: 50%;
   min-height: 250px;
-  text-align: center;
 }
 
 /* # SECTIONS */
+
+h1 {
+  font-size: 3em;
+}
 
 section.bg-white {
   background-color: var(--white);
@@ -120,6 +123,10 @@ section.bg-gray {
 
 .small-col {
   width: 40%;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* # FOOTER */
