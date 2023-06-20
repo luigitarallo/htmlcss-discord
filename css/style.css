@@ -171,6 +171,16 @@ section.bg-gray {
   text-align: center;
 }
 
+.bg-starred {
+  background-image: url(../img/stars.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.bg-starred > h2 {
+  padding: 3rem;
+}
+
 /* # FOOTER */
 
 .f-menu-title {
@@ -184,6 +194,19 @@ section.bg-gray {
 .f-claim {
   color: #7289da;
   margin-bottom: 2rem;
+}
+
+.social-box {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.social-icon {
+  margin-right: 1.2rem;
+}
+
+.social-box > a {
+  text-decoration: none;
 }
 
 select {
@@ -234,15 +257,15 @@ li {
 
 /* ! DEBUG */
 
-.debug .bordered {
+/* .debug .bordered {
   border: 2px dashed var(--black);
 }
 
 .debug .bordered-white {
   border: 2px dashed var(--white);
-}
+} */
 
-.debug .bg-cyan {
+/* .debug .bg-cyan {
   background-color: var(--cyan);
   min-height: 50px;
 }
@@ -250,19 +273,17 @@ li {
 .debug .bg-golden {
   background-color: var(--golden);
   min-height: 50px;
-}
+} */
 
-.debug .bg-blue {
+/* .debug .bg-blue {
   background-color: var(--blue);
-  /* min-height: 50px; */
 }
 
 .debug .bg-fuchsia {
   background-color: var(--fuchsia);
-  /* min-height: 50px; */
-}
+} */
 
-.debug .bg-azure {
+/* .debug .bg-azure {
   background-color: var(--azure);
   min-height: 50px;
 }
@@ -302,4 +323,4 @@ li {
 
 .debug .taller {
   min-height: 600px;
-}
+} */
