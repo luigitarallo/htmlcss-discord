@@ -194,6 +194,10 @@ select {
   color: white;
 }
 
+option {
+  color: black;
+}
+
 li {
   margin-top: 1rem;
   margin-bottom: 1rem;
