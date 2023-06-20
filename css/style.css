@@ -91,11 +91,13 @@ li > a {
   align-items: center;
   background-image: url(../img/jumbo.png);
   background-size: cover;
+  background-position: center;
 }
 
 .jumbotron > .container {
   width: 50%;
   min-height: 250px;
+  text-align: center;
 }
 
 /* # SECTIONS */
