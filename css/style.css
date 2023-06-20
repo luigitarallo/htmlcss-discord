@@ -51,10 +51,18 @@
   align-items: center;
 }
 
+.button-small {
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: none;
+}
+
 /* # HEADER */
 
 header {
   padding: 1.5rem 0;
+  background-color: #3161e0;
 }
 
 .link {
