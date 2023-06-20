@@ -181,6 +181,28 @@ section.bg-gray {
   font-weight: bold;
 }
 
+.f-claim {
+  color: #7289da;
+  margin-bottom: 2rem;
+}
+
+select {
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+li {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.flag-logo {
+  width: 2rem;
+}
+
 .bg-darkgray {
   background-color: var(--darkgray);
 }
