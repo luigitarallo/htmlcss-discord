@@ -6,7 +6,7 @@
   --blue: #00008b;
   --fuchsia: #ee82ee;
   --white: #ffffff;
-  --gray: #d3d3d3;
+  --gray: #f6f6f6;
   --azure: #1e90ff;
   --pink: #ffc0cb;
   --green: #228b22;
@@ -21,6 +21,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* # UTILS */
@@ -51,11 +52,36 @@
   align-items: center;
 }
 
-.button-small {
-  background-color: white;
-  padding: 5px 10px;
-  border-radius: 15px;
+.button {
+  border-radius: 25px;
   border: none;
+}
+
+.bbig {
+  padding: 13px 26px;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.bsmall {
+  background-color: white;
+  padding: 7px 14px;
+  font-size: 1.2rem;
+}
+
+.bdark {
+  background-color: black;
+  color: white;
+}
+
+.blight {
+  background-color: white;
+  color: black;
+}
+
+.bviolet {
+  background-color: #8ea1e1;
+  color: white;
 }
 
 /* # HEADER */
@@ -63,6 +89,10 @@
 header {
   padding: 1.5rem 0;
   background-color: #255ee9;
+}
+
+.white-text {
+  color: white;
 }
 
 .link {
@@ -79,6 +109,8 @@ li > a {
   margin: 0 20px;
   color: white;
   text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 /* # JUMBOTRON */
@@ -102,7 +134,17 @@ li > a {
 /* # SECTIONS */
 
 h1 {
-  font-size: 3em;
+  font-size: 4rem;
+  padding: 1rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.6rem;
+  padding: 1rem;
 }
 
 section.bg-white {
@@ -131,21 +173,25 @@ section.bg-gray {
 
 /* # FOOTER */
 
+.f-menu-title {
+  color: #7289da;
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 .bg-darkgray {
   background-color: var(--darkgray);
 }
 
 .footer-top {
-  border: 1px solid var(--gray);
+  border-bottom: 1px solid #8ea1e1;
 }
 
 .footer-top,
 .footer-bottom {
   padding: 2rem 0;
-}
-
-.footer-bottom > .container > * {
-  padding: 0.25rem 0.5rem;
 }
 
 .col-70 {
