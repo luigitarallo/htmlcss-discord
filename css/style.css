@@ -89,6 +89,8 @@ li > a {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
 }
 
 .jumbotron > .container {
