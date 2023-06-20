@@ -57,6 +57,20 @@ header {
   padding: 1.5rem 0;
 }
 
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 0 20px;
+}
+
 /* # JUMBOTRON */
 
 .jumbotron {
