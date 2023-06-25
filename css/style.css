@@ -185,6 +185,15 @@ section.bg-gray {
   padding: 3rem;
 }
 
+.wave {
+  color: var(--gray);
+  display: block;
+}
+
+.upside-down {
+  transform: rotate(180deg);
+}
+
 /* # FOOTER */
 
 .f-menu-title {
