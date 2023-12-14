@@ -2,7 +2,7 @@
 
 Replica della homepage del sito Discord
 
-## Tecnologie utilizzate
+## Tecnologie e librerie utilizzate
 
 - Html
 - Css
