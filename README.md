@@ -6,4 +6,4 @@ Replica della homepage del sito Discord
 
 - Html
 - Css
-- Bootstrap
+- Fontawesome
