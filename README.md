@@ -10,4 +10,6 @@ _Tra i primi esercizi svolti durante il corso di Boolean_
 - Css
 - Fontawesome
 
+## ScreenShot
+
 ![Alt text](/img/discord-result.png)
