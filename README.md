@@ -1,13 +1,13 @@
 # DISCORD
 
-Replica della homepage del sito Discord
+Replica of a page from the Discord website
 
-_Tra i primi esercizi svolti durante il corso di Boolean_
+_The first exercises of the Boolean course_
 
-## Tecnologie e librerie utilizzate
+## Technologies and Libraries
 
-- Html
-- Css
+- HTML
+- CSS
 - Fontawesome
 
 ## ScreenShot
