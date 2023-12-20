@@ -9,4 +9,4 @@ _Tra i primi esercizi svolti durante il corso di Boolean_
 - Css
 - Fontawesome
 
-[!Alt text](/img/discord-result.png)
+![Alt text](/img/discord-result.png)
